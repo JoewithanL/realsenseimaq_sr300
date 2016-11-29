@@ -1,0 +1,31 @@
+﻿Build started 29.11.2016 19:28:02.
+     1>Project "C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\realsenseimaq_sr300\realsenseimaq_sr300.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D "_WINDLL" /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt mydevice_exported_fcns.cpp RealSenseAdaptor.cpp RealSenseDeviceFormat.cpp RealSensePropGetListener.cpp RealSensePropSetListener.cpp
+         mydevice_exported_fcns.cpp
+         RealSenseAdaptor.cpp
+     1>c:\users\21r12r\documents\visual studio 2015\projects\realsenseimaq_sr300\realsenseimaq_sr300\RealSensePointCloudListener.hpp(145): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\21r12r\documents\visual studio 2015\projects\realsenseimaq_sr300\realsenseimaq_sr300\RealSensePointCloudListener.hpp(146): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>RealSenseAdaptor.cpp(279): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>RealSenseAdaptor.cpp(358): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+         RealSenseDeviceFormat.cpp
+         RealSensePropGetListener.cpp
+         RealSensePropSetListener.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\x64\Release\realsenseimaq_sr300.dll" /NOLOGO /LIBPATH:"C:\Program Files\MATLAB\R2016a\toolbox\imaq\imaqadaptors\kit\lib\win64\release" imaqmex.lib libpxc.lib libpxcutils.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\x64\Release\realsenseimaq_sr300.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\x64\Release\realsenseimaq_sr300.lib" /MACHINE:X64 /DLL x64\Release\mydevice_exported_fcns.obj
+         x64\Release\RealSenseAdaptor.obj
+         x64\Release\RealSenseDeviceFormat.obj
+         x64\Release\RealSensePropGetListener.obj
+         x64\Release\RealSensePropSetListener.obj
+            Creating library C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\x64\Release\realsenseimaq_sr300.lib and object C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\x64\Release\realsenseimaq_sr300.exp
+         Generating code
+         277 of 277 functions (100.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         realsenseimaq_sr300.vcxproj -> C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\x64\Release\realsenseimaq_sr300.dll
+     1>Done Building Project "C:\Users\21r12r\Documents\Visual Studio 2015\Projects\realsenseimaq_sr300\realsenseimaq_sr300\realsenseimaq_sr300.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.34
